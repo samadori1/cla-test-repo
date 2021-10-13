@@ -43,9 +43,22 @@ body:
       multiple: true
       options:
         - Firefox
+        - Opera
         - Chrome
         - Safari
         - Microsoft Edge
+  - type: dropdown
+    id: Severity
+    attributes:
+      label: What is the level of severity?
+      multiple: false
+      options:
+        - Insane
+        - Very High
+        - High
+        - Medium
+        - Low
+        - Very very low
   - type: textarea
     id: logs
     attributes:
